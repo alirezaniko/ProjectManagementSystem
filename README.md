@@ -27,7 +27,7 @@ This is a comprehensive project management system built with Django, designed to
    git clone https://github.com/alirezaniko/ProjectManagementSystem.git
    cd ProjectManagementSystem
 
-   Set up a virtual environment and install dependencies:
+   #Set up a virtual environment and install dependencies:
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    pip install -r requirements.txt
