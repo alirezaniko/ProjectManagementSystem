@@ -1,28 +1,31 @@
-Project Management System
-This is a comprehensive project management system built using Django, designed to facilitate the tracking and management of projects, tasks, and team collaboration. The application supports essential project management functionalities, from project and task creation to activity logging and user notifications.
+# Project Management System
 
-Project and Task Management: Users can create and manage projects, assign tasks with priorities and due dates, and track completion status.
-Role-Based Access: Custom permissions for project owners, members, and task assignees.
-Nested Comments: Supports task discussions and nested comments to facilitate team communication.
-Activity Logging: Automatic logging of actions (like project/task creation, updates, and deletions) for better tracking.
-Real-Time Notifications: Sends email notifications to members when projects or tasks are updated.
-Search & Filtering: Powerful search and filter capabilities for tasks, including by status, due date, and assigned user.
-RESTful API: Built with Django REST Framework, enabling integration with other applications.
-Pagination: Supports pagination for improved data handling and user experience.
-User Registration and Authentication: Secured user authentication, including JWT support for API requests.
+This is a comprehensive project management system built with Django, designed to facilitate the tracking and management of projects, tasks, and team collaboration. The application supports essential project management functionalities, from project and task creation to activity logging and user notifications.
 
-Technology Stack
-Backend: Django, Django REST Framework
-Database: PostgreSQL (or SQLite for development)
-Real-Time Notifications: Email (Django's email backend)
-Search & Filtering: Django Filter backend for precise querying
-Pagination: Page-based navigation with custom page size limits
+## Features
+- **Project and Task Management**: Users can create projects, assign tasks with priorities and due dates, and track completion status.
+- **Role-Based Access**: Custom permissions for project owners, members, and task assignees.
+- **Nested Comments**: Supports threaded comments to facilitate team communication on tasks.
+- **Activity Logging**: Automatically logs actions (like project/task creation, updates, and deletions) for better tracking.
+- **Real-Time Notifications**: Sends email notifications to members when projects or tasks are updated.
+- **Search & Filtering**: Powerful search and filter capabilities for tasks, including by status, due date, and assigned user.
+- **RESTful API**: Built with Django REST Framework, enabling integration with other applications.
+- **Pagination**: Supports pagination for improved data handling and user experience.
+- **User Registration and Authentication**: Secured user authentication, including JWT support for API requests.
 
-Clone the repository:
+## Technology Stack
+- **Backend**: Django, Django REST Framework
+- **Database**: PostgreSQL (or SQLite for development)
+- **Real-Time Notifications**: Email (Django's email backend)
+- **Search & Filtering**: Django Filter backend for precise querying
+- **Pagination**: Page-based navigation with customizable page size limits
 
-```bash
-git clone https://github.com/alirezaniko/ProjectManagementSystem.git
-cd ProjectManagementSystem
+## Installation and Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/alirezaniko/ProjectManagementSystem.git
+   cd ProjectManagementSystem
 ```
 Set up a virtual environment and install dependencies:
 
@@ -33,7 +36,7 @@ pip install -r requirements.txt
 ```
 Configure the database: Set up your PostgreSQL database and add your credentials to settings.py.
 
-Run migrations and start the server:
+2. **Run migrations and start the server**:
 
 ```bash
 python manage.py migrate
