@@ -46,12 +46,12 @@ Access the application at http://127.0.0.1:8000/
 The Django admin interface is available at http://127.0.0.1:8000/admin/ for managing projects, tasks, and user accounts.
 
 Endpoint	Method	Description
-/api/projects/	GET	List all projects
-/api/projects/	POST	Create a new project
-/api/projects/<id>/	PUT	Update a project
-/api/projects/<id>/	DELETE	Delete a project
-/api/tasks/	GET	List all tasks
-/api/tasks/	POST	Create a new task
-/api/tasks/<id>/	PUT	Update a task
-/api/tasks/<id>/	DELETE	Delete a task
-/api/activity_logs/	GET	View activity logs (read-only)
+- **/api/projects/	GET	List all projects
+- **/api/projects/	POST	Create a new project
+- **/api/projects/<id>/	PUT	Update a project
+- **/api/projects/<id>/	DELETE	Delete a project
+- **/api/tasks/	GET	List all tasks
+- **/api/tasks/	POST	Create a new task
+- **/api/tasks/<id>/	PUT	Update a task
+- **/api/tasks/<id>/	DELETE	Delete a task
+- **/api/activity_logs/	GET	View activity logs (read-only)
