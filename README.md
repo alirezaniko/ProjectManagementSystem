@@ -26,22 +26,20 @@ This is a comprehensive project management system built with Django, designed to
    ```bash
    git clone https://github.com/alirezaniko/ProjectManagementSystem.git
    cd ProjectManagementSystem
-```
-Set up a virtual environment and install dependencies:
 
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
+   Set up a virtual environment and install dependencies:
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 Configure the database: Set up your PostgreSQL database and add your credentials to settings.py.
 
 2. **Run migrations and start the server**:
 
-```bash
-python manage.py migrate
-python manage.py runserver
-```
+   ```bash
+   python manage.py migrate
+   python manage.py runserver
+   ```
 
 Usage
 Access the application at http://127.0.0.1:8000/
